@@ -1,0 +1,78 @@
+.card {
+    display: flex;
+    flex-flow:  wrap row;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+.pname {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 24px;
+    color: #333333;
+}
+.cat {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+}
+.cat span {
+    font-weight: 600;
+}
+.opisanie {
+    width: 300px;
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 10px rgba(130, 130, 130, 0.45);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.opisanie p {
+    padding-bottom: 15px;
+}
+.end {
+    border-bottom: solid #828282 1px;
+}
+.opisanie ul {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #4F4F4F;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.opisanie li {
+    margin-bottom: 15px;
+}
+.price {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+.button2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #DF427A;
+    border: solid #DF427A 0.5px;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.button2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: solid #DF427A 1px;
+    width: 195px;
+    height: 40px;
+    margin-top: -8px;
+}
+.main {
+    width: 460px;
+    padding: 13px;
+}
+.main p {
+    padding-bottom: 0;
+}

@@ -1,0 +1,37 @@
+.authors {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.authors > div {
+    width: 220px;
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 10px rgba(130, 130, 130, 0.45);
+    margin-bottom: 40px;
+    transition: transform 0.5s;
+}
+.authors div div {
+    height: 170px;
+    overflow: hidden;
+}
+.authors > div:hover {
+    transform: scale(1.01);
+}
+.authors img {
+    width: 220px;
+}
+h3 {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 20px;
+    color: #333333;
+    padding: 10px;
+}
+@media all and (max-width: 400px) {
+    .authors > div {
+        width: 100%;
+    }
+    .authors img {
+        width: 100%;
+    }
+}

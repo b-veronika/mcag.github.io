@@ -1,0 +1,32 @@
+.picture {
+    display: flex;
+    flex-flow:  wrap row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.picture img {
+    width: 250px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.picture p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #333333;
+    border-top: solid #333333 1px;
+    padding-top: 5px;
+}
+h1 {
+    border-bottom: solid #828282 1px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #333333;
+}
+@media all and (max-width: 400px) {
+    .picture img {
+        width: 100%
+    }
+}

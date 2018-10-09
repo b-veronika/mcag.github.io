@@ -1,0 +1,36 @@
+.input-wrapper {
+  width: 200px;
+  position: relative;
+}
+
+.input-wrapper::after {
+  content: attr(data-text);
+  font-size: 12px;
+  line-height: 0;
+  height: 0;
+  max-width: 100%;
+  font-family: Roboto, Arial, sans-serif;
+  border-bottom: 3px solid #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  overflow: hidden;
+  user-select: none;
+  color: transparent;
+}
+
+input {
+  color: #ddd;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  outline: none;
+  width: auto;
+  min-width: 100%;
+  font-size: 12px;
+  line-height: 1.5em;
+  font-family: Roboto, Arial, sans-serif;
+  border-bottom: 3px solid #828282;
+  background-color: transparent;
+}
